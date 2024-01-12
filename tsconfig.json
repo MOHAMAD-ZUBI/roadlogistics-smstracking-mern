@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/components/shared/sidebarLinks/SidebarLink.jsx",
+    "src/components/shared/sidebarLinks/CollapsableLink.jsx",
+    "src/components/Analytics.jsx",
+    "src/components/forms/AddServiceForm.jsx",
+    "src/components/shared/Sidebar.jsx",
+    "src/components/shared/Header.jsx",
+    "src/components/shared/Dropdown.jsx",
+    "src/components/shared/AdminLayout.jsx"
+  ],
+  "exclude": ["node_modules"]
+}
